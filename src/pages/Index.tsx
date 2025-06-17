@@ -594,14 +594,14 @@ const Index = () => {
                 />
               </div>
               <div>
-                <label className="block font-geist-mono text-lg lg:text-20 lg:leading-[27px] text-stratech-text-blue mb-3">
+                <label className="block font-geist-mono text-base lg:text-lg text-stratech-text-blue mb-3">
                   Last Name
                 </label>
                 <Input
                   name="lastName"
                   value={formData.lastName}
                   onChange={handleInputChange}
-                  className="h-16 lg:h-20 border-[1.5px] border-stratech-dark-blue opacity-80"
+                  className="h-12 lg:h-14 border-[1.5px] border-stratech-dark-blue opacity-80"
                   required
                 />
               </div>
@@ -609,28 +609,28 @@ const Index = () => {
 
             {/* Subject Field */}
             <div>
-              <label className="block font-geist-mono text-lg lg:text-20 lg:leading-[27px] text-stratech-text-blue mb-3">
+              <label className="block font-geist-mono text-base lg:text-lg text-stratech-text-blue mb-3">
                 Subject
               </label>
               <Input
                 name="subject"
                 value={formData.subject}
                 onChange={handleInputChange}
-                className="h-16 lg:h-20 border-[1.5px] border-stratech-dark-blue opacity-80"
+                className="h-12 lg:h-14 border-[1.5px] border-stratech-dark-blue opacity-80"
                 required
               />
             </div>
 
             {/* Message Field */}
             <div>
-              <label className="block font-geist-mono text-lg lg:text-20 lg:leading-[27px] text-stratech-text-blue mb-3">
+              <label className="block font-geist-mono text-base lg:text-lg text-stratech-text-blue mb-3">
                 Message
               </label>
               <Textarea
                 name="message"
                 value={formData.message}
                 onChange={handleInputChange}
-                className="h-64 lg:h-90 border-[1.5px] border-stratech-dark-blue opacity-80 resize-none"
+                className="h-32 lg:h-40 border-[1.5px] border-stratech-dark-blue opacity-80 resize-none"
                 required
               />
             </div>
@@ -638,7 +638,7 @@ const Index = () => {
             {/* Submit Button */}
             <Button
               type="submit"
-              className="px-4 lg:px-[18px] py-3 lg:py-4 bg-gradient-to-r from-stratech-text-blue to-stratech-dark-blue border-[1.5px] border-stratech-blue text-white font-geist text-lg lg:text-20 font-bold hover:opacity-90 transition-opacity flex items-center gap-3 shadow-lg"
+              className="px-6 lg:px-8 py-3 lg:py-4 bg-gradient-to-r from-stratech-text-blue to-stratech-dark-blue border-[1.5px] border-stratech-blue text-white font-geist text-base lg:text-lg font-bold hover:opacity-90 transition-opacity flex items-center gap-3 shadow-lg"
             >
               Send Message
               <svg
