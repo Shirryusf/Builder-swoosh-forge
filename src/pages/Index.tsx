@@ -459,105 +459,121 @@ const Index = () => {
       </section>
 
       {/* Featured Case Studies Section */}
-      <section className="py-24 bg-stratech-background">
-        <div className="max-w-7xl mx-auto px-28">
-          <div className="mb-12">
+      <section className="py-16 lg:py-20 bg-stratech-background">
+        <div className="max-w-7xl mx-auto px-6 lg:px-28">
+          <div className="mb-16">
             <h2 className="font-jaldi text-4xl md:text-5xl lg:text-6xl text-stratech-text-blue mb-6">
               Featured Case Studies
             </h2>
-            <p className="font-geist-mono text-22 leading-[27px] text-stratech-text-blue font-bold max-w-5xl">
+            <p className="font-geist-mono text-base lg:text-lg leading-relaxed text-stratech-text-blue max-w-4xl">
               Discover how our tailored solutions have transformed businesses
               across industries.
             </p>
           </div>
 
           {/* Case Studies Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-7">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Case Study 1 */}
-            <div className="bg-stratech-background p-6">
-              <div className="w-full h-80 bg-gray-100 mb-6 rounded flex items-center justify-center">
-                <span className="text-gray-400">Case Study 1</span>
+            <div className="bg-white p-8 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-xl shadow-sm">
+              <div className="w-full h-48 lg:h-56 bg-gradient-to-br from-blue-50 to-blue-100 mb-8 rounded-lg flex items-center justify-center">
+                <span className="text-stratech-blue font-semibold">
+                  Healthcare
+                </span>
               </div>
-              <h3 className="font-geist text-28 leading-[34px] text-stratech-blue mb-3">
+              <h3 className="font-geist text-xl lg:text-2xl text-stratech-blue mb-6 leading-tight">
                 Seamless Legacy System Migration for a Healthcare Enterprise
               </h3>
-              <div className="mb-3">
-                <h4 className="font-geist-mono text-20 leading-[27px] text-stratech-text-blue font-bold mb-2">
-                  Challenge
-                </h4>
-                <p className="font-geist-mono text-16 leading-[16px] text-stratech-text-blue">
-                  The client's outdated system was causing inefficiencies, data
-                  loss, and scalability issues.
-                </p>
-              </div>
-              <div>
-                <h4 className="font-geist-mono text-20 leading-[27px] text-stratech-text-blue font-bold mb-2">
-                  Solution
-                </h4>
-                <p className="font-geist-mono text-16 leading-[16px] text-stratech-text-blue">
-                  Our team developed a custom migration strategy, ensuring
-                  seamless data transfer, modernizing the infrastructure, and
-                  integrating the system with advanced analytics tools.
-                </p>
+              <div className="space-y-6">
+                <div>
+                  <h4 className="font-geist text-base lg:text-lg text-stratech-blue font-semibold mb-3 flex items-center">
+                    <span className="w-2 h-2 bg-red-400 rounded-full mr-3"></span>
+                    Challenge
+                  </h4>
+                  <p className="font-geist-mono text-sm lg:text-base leading-relaxed text-stratech-text-blue pl-5">
+                    The client's outdated system was causing inefficiencies,
+                    data loss, and scalability issues.
+                  </p>
+                </div>
+                <div>
+                  <h4 className="font-geist text-base lg:text-lg text-stratech-blue font-semibold mb-3 flex items-center">
+                    <span className="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
+                    Solution
+                  </h4>
+                  <p className="font-geist-mono text-sm lg:text-base leading-relaxed text-stratech-text-blue pl-5">
+                    Our team developed a custom migration strategy, ensuring
+                    seamless data transfer, modernizing the infrastructure, and
+                    integrating the system with advanced analytics tools.
+                  </p>
+                </div>
               </div>
             </div>
 
             {/* Case Study 2 */}
-            <div className="bg-stratech-background p-6">
-              <div className="w-full h-80 bg-gray-100 mb-6 rounded flex items-center justify-center">
-                <span className="text-gray-400">Case Study 2</span>
+            <div className="bg-white p-8 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-xl shadow-sm">
+              <div className="w-full h-48 lg:h-56 bg-gradient-to-br from-green-50 to-green-100 mb-8 rounded-lg flex items-center justify-center">
+                <span className="text-stratech-blue font-semibold">
+                  FinTech
+                </span>
               </div>
-              <h3 className="font-geist text-28 leading-[34px] text-stratech-blue mb-3">
+              <h3 className="font-geist text-xl lg:text-2xl text-stratech-blue mb-6 leading-tight">
                 Accelerating MVP Development for a FinTech Startup
               </h3>
-              <div className="mb-3">
-                <h4 className="font-geist-mono text-20 leading-[27px] text-stratech-text-blue font-bold mb-2">
-                  Challenge
-                </h4>
-                <p className="font-geist-mono text-16 leading-[16px] text-stratech-text-blue">
-                  The startup needed a stable MVP within a tight timeline to
-                  secure investor funding.
-                </p>
-              </div>
-              <div>
-                <h4 className="font-geist-mono text-20 leading-[27px] text-stratech-text-blue font-bold mb-2">
-                  Solution
-                </h4>
-                <p className="font-geist-mono text-16 leading-[16px] text-stratech-text-blue">
-                  Our automated teams delivered a bug-free MVP in just 6 weeks,
-                  using agile development practices to meet the client's
-                  requirements.
-                </p>
+              <div className="space-y-6">
+                <div>
+                  <h4 className="font-geist text-base lg:text-lg text-stratech-blue font-semibold mb-3 flex items-center">
+                    <span className="w-2 h-2 bg-red-400 rounded-full mr-3"></span>
+                    Challenge
+                  </h4>
+                  <p className="font-geist-mono text-sm lg:text-base leading-relaxed text-stratech-text-blue pl-5">
+                    The startup needed a stable MVP within a tight timeline to
+                    secure investor funding.
+                  </p>
+                </div>
+                <div>
+                  <h4 className="font-geist text-base lg:text-lg text-stratech-blue font-semibold mb-3 flex items-center">
+                    <span className="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
+                    Solution
+                  </h4>
+                  <p className="font-geist-mono text-sm lg:text-base leading-relaxed text-stratech-text-blue pl-5">
+                    Our automated teams delivered a bug-free MVP in just 6
+                    weeks, using agile development practices to meet the
+                    client's requirements.
+                  </p>
+                </div>
               </div>
             </div>
 
             {/* Case Study 3 */}
-            <div className="bg-stratech-background p-6">
-              <div className="w-full h-80 bg-gray-100 mb-6 rounded flex items-center justify-center">
-                <span className="text-gray-400">Case Study 3</span>
+            <div className="bg-white p-8 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-xl shadow-sm">
+              <div className="w-full h-48 lg:h-56 bg-gradient-to-br from-purple-50 to-purple-100 mb-8 rounded-lg flex items-center justify-center">
+                <span className="text-stratech-blue font-semibold">Retail</span>
               </div>
-              <h3 className="font-geist text-28 leading-[34px] text-stratech-blue mb-3">
+              <h3 className="font-geist text-xl lg:text-2xl text-stratech-blue mb-6 leading-tight">
                 Scalable ERP Implementation for a Retail Chain
               </h3>
-              <div className="mb-3">
-                <h4 className="font-geist-mono text-20 leading-[27px] text-stratech-text-blue mb-2">
-                  Challenge
-                </h4>
-                <p className="font-geist-mono text-16 leading-[16px] text-stratech-text-blue">
-                  The retail client struggled with fragmented operations across
-                  multiple locations, affecting efficiency and reporting
-                  accuracy.
-                </p>
-              </div>
-              <div>
-                <h4 className="font-geist-mono text-20 leading-[27px] text-stratech-text-blue font-bold mb-2">
-                  Solution
-                </h4>
-                <p className="font-geist-mono text-16 leading-[16px] text-stratech-text-blue">
-                  Stratech team implemented a customized ERP system, integrating
-                  inventory, sales, and finance operations into a single
-                  streamlined platform.
-                </p>
+              <div className="space-y-6">
+                <div>
+                  <h4 className="font-geist text-base lg:text-lg text-stratech-blue font-semibold mb-3 flex items-center">
+                    <span className="w-2 h-2 bg-red-400 rounded-full mr-3"></span>
+                    Challenge
+                  </h4>
+                  <p className="font-geist-mono text-sm lg:text-base leading-relaxed text-stratech-text-blue pl-5">
+                    The retail client struggled with fragmented operations
+                    across multiple locations, affecting efficiency and
+                    reporting accuracy.
+                  </p>
+                </div>
+                <div>
+                  <h4 className="font-geist text-base lg:text-lg text-stratech-blue font-semibold mb-3 flex items-center">
+                    <span className="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
+                    Solution
+                  </h4>
+                  <p className="font-geist-mono text-sm lg:text-base leading-relaxed text-stratech-text-blue pl-5">
+                    Stratech team implemented a customized ERP system,
+                    integrating inventory, sales, and finance operations into a
+                    single streamlined platform.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
