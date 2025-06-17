@@ -44,7 +44,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative min-h-screen bg-white border border-black shadow-lg">
+      <section className="relative min-h-screen bg-white">
         {/* Navigation */}
         <nav className="relative flex justify-between items-center px-6 lg:px-28 py-6">
           <div className="w-80 h-21">
