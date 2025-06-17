@@ -166,13 +166,13 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
             {/* Service 1 */}
             <div className="bg-stratech-background p-6 border-2 border-transparent hover:border-stratech-blue transition-colors">
-              <div className="w-full h-80 bg-gray-100 mb-6 rounded flex items-center justify-center">
+              <div className="w-full h-48 lg:h-80 bg-gray-100 mb-6 rounded flex items-center justify-center">
                 <span className="text-gray-400">Service Icon 1</span>
               </div>
-              <h3 className="font-geist text-28 leading-[34px] text-stratech-blue mb-3">
+              <h3 className="font-geist text-xl lg:text-28 lg:leading-[34px] text-stratech-blue mb-3">
                 Product Consulting
               </h3>
-              <p className="font-geist-mono text-20 leading-[27px] text-stratech-text-blue">
+              <p className="font-geist-mono text-base lg:text-20 lg:leading-[27px] text-stratech-text-blue">
                 Strategically position your digital products for success with
                 actionable insights and market expertise.
               </p>
