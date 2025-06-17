@@ -258,48 +258,48 @@ const Index = () => {
       </section>
 
       {/* Our Impact Section */}
-      <section className="py-12 lg:py-24 bg-stratech-background">
+      <section className="py-16 lg:py-20 bg-stratech-background">
         <div className="max-w-7xl mx-auto px-6 lg:px-28">
-          <div className="mb-12">
-            <h2 className="font-jaldi text-3xl md:text-5xl lg:text-75 lg:leading-[89px] text-stratech-text-blue mb-6">
+          <div className="mb-16">
+            <h2 className="font-jaldi text-3xl md:text-4xl lg:text-5xl text-stratech-text-blue mb-6">
               Our Impact
             </h2>
-            <p className="font-geist-mono text-lg lg:text-20 lg:leading-[27px] text-stratech-text-blue">
+            <p className="font-geist-mono text-base lg:text-lg leading-relaxed text-stratech-text-blue">
               Discover the milestones that define our success.
             </p>
           </div>
 
           {/* Statistics Grid */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 lg:gap-8 mb-12">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12 mb-16">
             <div className="text-center">
-              <div className="font-geist text-3xl md:text-5xl lg:text-74 lg:leading-[89px] font-bold text-stratech-text-blue mb-6">
+              <div className="font-geist text-4xl md:text-5xl lg:text-6xl font-bold text-stratech-text-blue mb-4">
                 95%
               </div>
-              <p className="font-geist-mono text-sm md:text-base lg:text-18 lg:leading-[27px] text-stratech-text-blue">
+              <p className="font-geist-mono text-sm lg:text-base leading-relaxed text-stratech-text-blue">
                 Client Satisfaction Rate
               </p>
             </div>
             <div className="text-center">
-              <div className="font-geist text-3xl md:text-5xl lg:text-74 lg:leading-[89px] font-bold text-stratech-text-blue mb-6">
+              <div className="font-geist text-4xl md:text-5xl lg:text-6xl font-bold text-stratech-text-blue mb-4">
                 300+
               </div>
-              <p className="font-geist-mono text-sm md:text-base lg:text-18 lg:leading-[27px] text-stratech-text-blue">
+              <p className="font-geist-mono text-sm lg:text-base leading-relaxed text-stratech-text-blue">
                 Successful Projects Delivered
               </p>
             </div>
             <div className="text-center">
-              <div className="font-geist text-3xl md:text-5xl lg:text-74 lg:leading-[89px] font-bold text-stratech-text-blue mb-6">
+              <div className="font-geist text-4xl md:text-5xl lg:text-6xl font-bold text-stratech-text-blue mb-4">
                 40%
               </div>
-              <p className="font-geist-mono text-sm md:text-base lg:text-18 lg:leading-[27px] text-stratech-text-blue">
+              <p className="font-geist-mono text-sm lg:text-base leading-relaxed text-stratech-text-blue">
                 Faster MVP Delivery
               </p>
             </div>
             <div className="text-center">
-              <div className="font-geist text-3xl md:text-5xl lg:text-74 lg:leading-[89px] font-bold text-stratech-text-blue mb-6">
+              <div className="font-geist text-4xl md:text-5xl lg:text-6xl font-bold text-stratech-text-blue mb-4">
                 5+
               </div>
-              <p className="font-geist-mono text-sm md:text-base lg:text-18 lg:leading-[27px] text-stratech-text-blue">
+              <p className="font-geist-mono text-sm lg:text-base leading-relaxed text-stratech-text-blue">
                 Years of Combined Expertise
               </p>
             </div>
@@ -307,10 +307,10 @@ const Index = () => {
 
           {/* Highlighted Stat */}
           <div className="text-center">
-            <div className="font-geist text-6xl md:text-8xl lg:text-[120px] lg:leading-[144px] font-bold text-stratech-blue mb-6">
+            <div className="font-geist text-6xl md:text-7xl lg:text-8xl font-bold text-stratech-blue mb-6">
               99.9%
             </div>
-            <p className="font-geist-mono text-lg lg:text-20 lg:leading-[27px] text-stratech-blue">
+            <p className="font-geist-mono text-lg lg:text-xl leading-relaxed text-stratech-blue">
               Uptime Guarantee
             </p>
           </div>
