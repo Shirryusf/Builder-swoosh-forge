@@ -589,7 +589,7 @@ const Index = () => {
                   name="firstName"
                   value={formData.firstName}
                   onChange={handleInputChange}
-                  className="h-16 lg:h-20 border-[1.5px] border-stratech-dark-blue opacity-80"
+                  className="h-12 lg:h-14 border-[1.5px] border-stratech-dark-blue opacity-80"
                   required
                 />
               </div>
