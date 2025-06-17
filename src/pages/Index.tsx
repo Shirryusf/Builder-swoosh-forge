@@ -768,7 +768,7 @@ const Index = () => {
       <footer className="py-16 lg:py-20 bg-stratech-background border-t border-stratech-text-blue/50">
         <div className="max-w-7xl mx-auto px-6 lg:px-28">
           {/* Footer Content */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 mb-8">
             {/* Company Info */}
             <div>
               <div className="mb-6">
@@ -787,65 +787,11 @@ const Index = () => {
             </div>
 
             {/* Contact Info */}
-            <div className="text-center md:text-left">
-              <h3 className="font-geist text-lg lg:text-xl text-stratech-blue font-semibold mb-4">
-                Get in Touch
-              </h3>
-              <p className="font-geist-mono text-sm lg:text-base text-stratech-text-blue mb-4">
-                Ready to transform your business? Contact us through:
-              </p>
-              <div className="font-jaldi text-base md:text-lg lg:text-xl text-stratech-text-blue">
+            <div className="text-center md:text-left lg:text-center">
+              <div className="font-jaldi text-lg md:text-xl lg:text-2xl text-stratech-text-blue">
                 info@stratech24.com
                 <br />
                 (+49) 176 72733996
-              </div>
-            </div>
-
-            {/* Location Map */}
-            <div className="text-center md:text-left">
-              <h3 className="font-geist text-lg lg:text-xl text-stratech-blue font-semibold mb-4">
-                Our Location
-              </h3>
-              <p className="font-geist-mono text-sm lg:text-base text-stratech-text-blue mb-4">
-                Düsseldorf, Germany
-              </p>
-              {/* Simple Germany Map with Düsseldorf Dot */}
-              <div className="flex justify-center md:justify-start">
-                <svg
-                  width="120"
-                  height="150"
-                  viewBox="0 0 120 150"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="border border-stratech-text-blue/20 rounded-lg p-2"
-                >
-                  {/* Simplified Germany outline */}
-                  <path
-                    d="M30 20 L90 15 L95 25 L100 35 L105 50 L110 70 L105 90 L100 110 L95 125 L85 135 L70 140 L50 138 L35 130 L25 115 L20 95 L15 75 L18 55 L25 35 Z"
-                    fill="#f3f4f6"
-                    stroke="#517193"
-                    strokeWidth="1"
-                  />
-                  {/* Düsseldorf location dot */}
-                  <circle
-                    cx="45"
-                    cy="60"
-                    r="4"
-                    fill="#3398DB"
-                    stroke="#ffffff"
-                    strokeWidth="2"
-                  />
-                  {/* Location label */}
-                  <text
-                    x="52"
-                    y="58"
-                    fontSize="8"
-                    fill="#517193"
-                    fontFamily="Geist Mono"
-                  >
-                    Düsseldorf
-                  </text>
-                </svg>
               </div>
             </div>
           </div>
