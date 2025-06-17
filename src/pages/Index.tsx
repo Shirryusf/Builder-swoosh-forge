@@ -788,6 +788,9 @@ const Index = () => {
 
             {/* Contact Info */}
             <div className="text-center md:text-left lg:text-center">
+              <p className="font-geist-mono text-sm lg:text-base text-stratech-text-blue mb-4">
+                Ready to transform your business? Contact us through:
+              </p>
               <div className="font-jaldi text-lg md:text-xl lg:text-2xl text-stratech-text-blue">
                 info@stratech24.com
                 <br />
