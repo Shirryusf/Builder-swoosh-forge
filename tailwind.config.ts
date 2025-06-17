@@ -92,6 +92,7 @@ export default {
         "16": ["16px", { lineHeight: "16px" }],
       },
       spacing: {
+        "90": "22.5rem",
         "112": "28rem",
         "132": "33rem",
       },
