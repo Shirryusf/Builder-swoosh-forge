@@ -560,43 +560,43 @@ const Index = () => {
       </section>
 
       {/* Contact Us Section */}
-      <section className="py-24 bg-stratech-background">
-        <div className="max-w-7xl mx-auto px-28">
+      <section className="py-12 lg:py-24 bg-stratech-background">
+        <div className="max-w-7xl mx-auto px-6 lg:px-28">
           <div className="mb-12">
-            <h2 className="font-jaldi text-74 leading-[89px] text-stratech-text-blue mb-6">
+            <h2 className="font-jaldi text-3xl md:text-5xl lg:text-74 lg:leading-[89px] text-stratech-text-blue mb-6">
               Contact Us
             </h2>
-            <p className="font-geist-mono text-22 leading-[27px] text-stratech-text-blue">
+            <p className="font-geist-mono text-lg md:text-xl lg:text-22 lg:leading-[27px] text-stratech-text-blue">
               We specialize in delivering tailored solutions to address your
               business needs across these key areas:
             </p>
           </div>
 
           {/* Contact Form */}
-          <form onSubmit={handleSubmit} className="space-y-12">
+          <form onSubmit={handleSubmit} className="space-y-8 lg:space-y-12">
             {/* Name Fields */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-12">
               <div>
-                <label className="block font-geist-mono text-20 leading-[27px] text-stratech-text-blue mb-3">
+                <label className="block font-geist-mono text-lg lg:text-20 lg:leading-[27px] text-stratech-text-blue mb-3">
                   First Name
                 </label>
                 <Input
                   name="firstName"
                   value={formData.firstName}
                   onChange={handleInputChange}
-                  className="h-20 border-[1.5px] border-stratech-dark-blue opacity-80"
+                  className="h-16 lg:h-20 border-[1.5px] border-stratech-dark-blue opacity-80"
                   required
                 />
               </div>
               <div>
-                <label className="block font-geist-mono text-20 leading-[27px] text-stratech-text-blue mb-3">
+                <label className="block font-geist-mono text-lg lg:text-20 lg:leading-[27px] text-stratech-text-blue mb-3">
                   Last Name
                 </label>
                 <Input
                   name="lastName"
                   value={formData.lastName}
                   onChange={handleInputChange}
-                  className="h-20 border-[1.5px] border-stratech-dark-blue opacity-80"
+                  className="h-16 lg:h-20 border-[1.5px] border-stratech-dark-blue opacity-80"
                   required
                 />
               </div>
@@ -604,28 +604,28 @@ const Index = () => {
 
             {/* Subject Field */}
             <div>
-              <label className="block font-geist-mono text-20 leading-[27px] text-stratech-text-blue mb-3">
+              <label className="block font-geist-mono text-lg lg:text-20 lg:leading-[27px] text-stratech-text-blue mb-3">
                 Subject
               </label>
               <Input
                 name="subject"
                 value={formData.subject}
                 onChange={handleInputChange}
-                className="h-20 border-[1.5px] border-stratech-dark-blue opacity-80"
+                className="h-16 lg:h-20 border-[1.5px] border-stratech-dark-blue opacity-80"
                 required
               />
             </div>
 
             {/* Message Field */}
             <div>
-              <label className="block font-geist-mono text-20 leading-[27px] text-stratech-text-blue mb-3">
+              <label className="block font-geist-mono text-lg lg:text-20 lg:leading-[27px] text-stratech-text-blue mb-3">
                 Message
               </label>
               <Textarea
                 name="message"
                 value={formData.message}
                 onChange={handleInputChange}
-                className="h-90 border-[1.5px] border-stratech-dark-blue opacity-80 resize-none"
+                className="h-64 lg:h-90 border-[1.5px] border-stratech-dark-blue opacity-80 resize-none"
                 required
               />
             </div>
@@ -633,7 +633,7 @@ const Index = () => {
             {/* Submit Button */}
             <Button
               type="submit"
-              className="px-[18px] py-4 bg-gradient-to-r from-stratech-text-blue to-stratech-dark-blue border-[1.5px] border-stratech-blue text-white font-geist text-20 font-bold hover:opacity-90 transition-opacity flex items-center gap-3 shadow-lg"
+              className="px-4 lg:px-[18px] py-3 lg:py-4 bg-gradient-to-r from-stratech-text-blue to-stratech-dark-blue border-[1.5px] border-stratech-blue text-white font-geist text-lg lg:text-20 font-bold hover:opacity-90 transition-opacity flex items-center gap-3 shadow-lg"
             >
               Send Message
               <svg
