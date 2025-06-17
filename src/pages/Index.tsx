@@ -48,10 +48,12 @@ const Index = () => {
         {/* Navigation */}
         <nav className="relative flex justify-between items-center px-6 lg:px-28 py-6">
           <div className="w-80 h-21">
-            {/* Logo placeholder - replace with actual logo */}
-            <div className="text-stratech-blue font-jaldi text-xl lg:text-2xl font-bold">
-              STRATECH
-            </div>
+            {/* Stratech Logo */}
+            <img
+              src="https://cdn.builder.io/api/v1/assets/3d06e7b99c5248b59738ec5ba799835f/photo_2025-05-23_03-05-19-795092?format=webp&width=800"
+              alt="Stratech Company Logo"
+              className="h-16 lg:h-20 w-auto object-contain"
+            />
           </div>
         </nav>
 
