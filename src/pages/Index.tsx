@@ -392,7 +392,7 @@ const Index = () => {
       <section className="py-24 bg-stratech-background">
         <div className="max-w-7xl mx-auto px-28">
           <div className="mb-12">
-            <h2 className="font-jaldi text-74 leading-[89px] text-stratech-text-blue mb-6">
+            <h2 className="font-jaldi text-4xl md:text-5xl lg:text-6xl text-stratech-text-blue mb-6">
               What We Stand For
             </h2>
             <p className="font-geist-mono text-22 leading-[27px] text-stratech-text-blue">
