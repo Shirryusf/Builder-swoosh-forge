@@ -137,27 +137,77 @@ const Index = () => {
           <div className="overflow-hidden">
             <div className="flex animate-slide-logos items-center gap-8 lg:gap-12">
               {/* First set of logos */}
-              {[1, 2, 3, 4, 5].map((i) => (
-                <div
-                  key={i}
-                  className="flex-shrink-0 w-40 lg:w-52 h-12 lg:h-16 bg-gray-200 rounded flex items-center justify-center"
-                >
-                  <span className="text-gray-500 font-geist text-sm lg:text-base">
-                    Partner {i}
-                  </span>
-                </div>
-              ))}
+              <div className="flex-shrink-0 w-40 lg:w-52 h-12 lg:h-16 bg-white/80 rounded flex items-center justify-center p-3">
+                <img
+                  src="https://cdn.builder.io/api/v1/assets/3d06e7b99c5248b59738ec5ba799835f/idfd1c9hrz_1750157732035-f99c5c?format=webp&width=800"
+                  alt="Trello"
+                  className="max-h-full max-w-full object-contain"
+                />
+              </div>
+              <div className="flex-shrink-0 w-40 lg:w-52 h-12 lg:h-16 bg-white/80 rounded flex items-center justify-center p-3">
+                <img
+                  src="https://cdn.builder.io/api/v1/assets/3d06e7b99c5248b59738ec5ba799835f/idldkcahpa_1750157288832-00b701?format=webp&width=800"
+                  alt="ClickUp"
+                  className="max-h-full max-w-full object-contain"
+                />
+              </div>
+              <div className="flex-shrink-0 w-40 lg:w-52 h-12 lg:h-16 bg-white/80 rounded flex items-center justify-center p-3">
+                <img
+                  src="https://cdn.builder.io/api/v1/assets/3d06e7b99c5248b59738ec5ba799835f/idzc1rfbzo_logos-98d2b6?format=webp&width=800"
+                  alt="Paymob"
+                  className="max-h-full max-w-full object-contain"
+                />
+              </div>
+              <div className="flex-shrink-0 w-40 lg:w-52 h-12 lg:h-16 bg-white/80 rounded flex items-center justify-center p-3">
+                <img
+                  src="https://cdn.builder.io/api/v1/assets/3d06e7b99c5248b59738ec5ba799835f/hubspot_logo.svg-54f3e3?format=webp&width=800"
+                  alt="HubSpot"
+                  className="max-h-full max-w-full object-contain"
+                />
+              </div>
+              <div className="flex-shrink-0 w-40 lg:w-52 h-12 lg:h-16 bg-white/80 rounded flex items-center justify-center p-3">
+                <img
+                  src="https://cdn.builder.io/api/v1/assets/3d06e7b99c5248b59738ec5ba799835f/zoho_logo_2023.svg-5b85c8?format=webp&width=800"
+                  alt="Zoho"
+                  className="max-h-full max-w-full object-contain"
+                />
+              </div>
               {/* Duplicate set for seamless loop */}
-              {[1, 2, 3, 4, 5].map((i) => (
-                <div
-                  key={`duplicate-${i}`}
-                  className="flex-shrink-0 w-40 lg:w-52 h-12 lg:h-16 bg-gray-200 rounded flex items-center justify-center"
-                >
-                  <span className="text-gray-500 font-geist text-sm lg:text-base">
-                    Partner {i}
-                  </span>
-                </div>
-              ))}
+              <div className="flex-shrink-0 w-40 lg:w-52 h-12 lg:h-16 bg-white/80 rounded flex items-center justify-center p-3">
+                <img
+                  src="https://cdn.builder.io/api/v1/assets/3d06e7b99c5248b59738ec5ba799835f/idfd1c9hrz_1750157732035-f99c5c?format=webp&width=800"
+                  alt="Trello"
+                  className="max-h-full max-w-full object-contain"
+                />
+              </div>
+              <div className="flex-shrink-0 w-40 lg:w-52 h-12 lg:h-16 bg-white/80 rounded flex items-center justify-center p-3">
+                <img
+                  src="https://cdn.builder.io/api/v1/assets/3d06e7b99c5248b59738ec5ba799835f/idldkcahpa_1750157288832-00b701?format=webp&width=800"
+                  alt="ClickUp"
+                  className="max-h-full max-w-full object-contain"
+                />
+              </div>
+              <div className="flex-shrink-0 w-40 lg:w-52 h-12 lg:h-16 bg-white/80 rounded flex items-center justify-center p-3">
+                <img
+                  src="https://cdn.builder.io/api/v1/assets/3d06e7b99c5248b59738ec5ba799835f/idzc1rfbzo_logos-98d2b6?format=webp&width=800"
+                  alt="Paymob"
+                  className="max-h-full max-w-full object-contain"
+                />
+              </div>
+              <div className="flex-shrink-0 w-40 lg:w-52 h-12 lg:h-16 bg-white/80 rounded flex items-center justify-center p-3">
+                <img
+                  src="https://cdn.builder.io/api/v1/assets/3d06e7b99c5248b59738ec5ba799835f/hubspot_logo.svg-54f3e3?format=webp&width=800"
+                  alt="HubSpot"
+                  className="max-h-full max-w-full object-contain"
+                />
+              </div>
+              <div className="flex-shrink-0 w-40 lg:w-52 h-12 lg:h-16 bg-white/80 rounded flex items-center justify-center p-3">
+                <img
+                  src="https://cdn.builder.io/api/v1/assets/3d06e7b99c5248b59738ec5ba799835f/zoho_logo_2023.svg-5b85c8?format=webp&width=800"
+                  alt="Zoho"
+                  className="max-h-full max-w-full object-contain"
+                />
+              </div>
             </div>
           </div>
         </div>
