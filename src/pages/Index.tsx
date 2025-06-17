@@ -664,64 +664,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Get in Touch Today Section */}
-      <section className="py-24 bg-stratech-background">
-        <div className="max-w-7xl mx-auto px-28">
-          <div className="mb-12">
-            <h2 className="font-geist text-74 leading-[89px] text-stratech-dark-text mb-6">
-              Get in Touch Today
-            </h2>
-            <p className="font-geist-mono text-18 leading-[27px] text-stratech-dark-text max-w-4xl">
-              Let's create the future of your business together. Whether you
-              need consulting, development, or robust digital solutions, ABC
-              Company is here to help.
-            </p>
-          </div>
-
-          {/* Contact Methods */}
-          <div className="bg-stratech-background p-6 grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Email */}
-            <div className="text-center">
-              <div className="w-full h-80 bg-gray-100 mb-6 rounded flex items-center justify-center">
-                <span className="text-gray-400">Email Icon</span>
-              </div>
-              <h3 className="font-geist text-28 leading-[34px] text-stratech-blue mb-3">
-                Email Us
-              </h3>
-              <p className="font-geist-mono text-18 leading-[27px] text-stratech-text-blue">
-                contact@abccompany.com
-              </p>
-            </div>
-
-            {/* Phone */}
-            <div className="text-center">
-              <div className="w-full h-80 bg-gray-100 mb-6 rounded flex items-center justify-center">
-                <span className="text-gray-400">Phone Icon</span>
-              </div>
-              <h3 className="font-geist text-28 leading-[34px] text-stratech-blue mb-3">
-                Call Us
-              </h3>
-              <p className="font-geist-mono text-18 leading-[27px] text-stratech-text-blue">
-                +1 (XXX) XXX-XXXX
-              </p>
-            </div>
-
-            {/* Visit */}
-            <div className="text-center">
-              <div className="w-full h-80 bg-gray-100 mb-6 rounded flex items-center justify-center">
-                <span className="text-gray-400">Location Icon</span>
-              </div>
-              <h3 className="font-geist text-28 leading-[34px] text-stratech-blue mb-3">
-                Visit Us
-              </h3>
-              <p className="font-geist-mono text-18 leading-[27px] text-stratech-text-blue">
-                123, Main Road, London, UK.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Join Us Section */}
       <section className="py-24 bg-stratech-background">
         <div className="max-w-7xl mx-auto px-28">
