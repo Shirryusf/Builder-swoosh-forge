@@ -787,7 +787,7 @@ const Index = () => {
             </div>
 
             {/* Contact Info */}
-            <div className="text-center md:text-left lg:text-center">
+            <div className="text-left">
               <p className="font-geist-mono text-sm lg:text-base text-stratech-text-blue mb-4">
                 Ready to transform your business? Contact us through:
               </p>
