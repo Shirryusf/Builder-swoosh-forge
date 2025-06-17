@@ -331,39 +331,39 @@ const Index = () => {
           </div>
 
           {/* Three columns */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-stratech-background p-6">
-              <div className="w-full h-80 bg-gray-100 mb-6 rounded flex items-center justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="bg-stratech-background p-6 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-lg">
+              <div className="w-full h-48 lg:h-64 bg-gray-100 mb-6 rounded flex items-center justify-center">
                 <span className="text-gray-400">Global Icon</span>
               </div>
-              <h3 className="font-geist text-28 leading-[34px] text-stratech-blue mb-3">
+              <h3 className="font-geist text-xl lg:text-2xl text-stratech-blue mb-4">
                 Global Reach
               </h3>
-              <p className="font-geist-mono text-20 leading-[27px] text-stratech-text-blue">
+              <p className="font-geist-mono text-sm lg:text-base leading-relaxed text-stratech-text-blue">
                 Serving clients worldwide, from startups to enterprises.
               </p>
             </div>
 
-            <div className="bg-stratech-background p-6">
-              <div className="w-full h-56 bg-gray-100 mb-6 rounded flex items-center justify-center">
+            <div className="bg-stratech-background p-6 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-lg">
+              <div className="w-full h-48 lg:h-64 bg-gray-100 mb-6 rounded flex items-center justify-center">
                 <span className="text-gray-400">Solutions Icon</span>
               </div>
-              <h3 className="font-geist text-28 leading-[34px] text-stratech-blue mb-3">
+              <h3 className="font-geist text-xl lg:text-2xl text-stratech-blue mb-4">
                 Scalable Solutions
               </h3>
-              <p className="font-geist-mono text-20 leading-[27px] text-stratech-text-blue">
+              <p className="font-geist-mono text-sm lg:text-base leading-relaxed text-stratech-text-blue">
                 Flexible services tailored to businesses of all sizes.
               </p>
             </div>
 
-            <div className="bg-stratech-background p-6">
-              <div className="w-full h-80 bg-gray-100 mb-6 rounded flex items-center justify-center">
+            <div className="bg-stratech-background p-6 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-lg">
+              <div className="w-full h-48 lg:h-64 bg-gray-100 mb-6 rounded flex items-center justify-center">
                 <span className="text-gray-400">Trust Icon</span>
               </div>
-              <h3 className="font-geist text-28 leading-[34px] text-stratech-blue mb-3">
+              <h3 className="font-geist text-xl lg:text-2xl text-stratech-blue mb-4">
                 Expertise You Can Trust
               </h3>
-              <p className="font-geist-mono text-20 leading-[27px] text-stratech-text-blue">
+              <p className="font-geist-mono text-sm lg:text-base leading-relaxed text-stratech-text-blue">
                 Years of experience delivering quality solutions for complex
                 problems.
               </p>
