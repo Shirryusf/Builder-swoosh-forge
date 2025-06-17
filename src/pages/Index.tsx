@@ -52,7 +52,7 @@ const Index = () => {
             <img
               src="https://cdn.builder.io/api/v1/assets/3d06e7b99c5248b59738ec5ba799835f/photo_2025-05-23_03-05-19-795092?format=webp&width=800"
               alt="Stratech Company Logo"
-              className="h-16 lg:h-20 w-auto object-contain"
+              className="h-20 lg:h-28 w-auto object-contain"
             />
           </div>
         </nav>
