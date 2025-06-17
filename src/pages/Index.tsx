@@ -184,56 +184,56 @@ const Index = () => {
             </div>
 
             {/* Service 2 */}
-            <div className="bg-stratech-background p-6 border-2 border-transparent hover:border-stratech-blue transition-colors">
-              <div className="w-full h-48 lg:h-80 bg-gray-100 mb-6 rounded flex items-center justify-center">
+            <div className="bg-stratech-background p-6 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-lg">
+              <div className="w-full h-48 lg:h-64 bg-gray-100 mb-6 rounded flex items-center justify-center">
                 <span className="text-gray-400">Service Icon 2</span>
               </div>
-              <h3 className="font-geist text-xl lg:text-28 lg:leading-[34px] text-stratech-blue mb-3">
+              <h3 className="font-geist text-xl lg:text-2xl text-stratech-blue mb-4">
                 SaaS Product Development
               </h3>
-              <p className="font-geist-mono text-base lg:text-20 lg:leading-[27px] text-stratech-text-blue">
+              <p className="font-geist-mono text-sm lg:text-base leading-relaxed text-stratech-text-blue">
                 Scalable, cloud-based software solutions — we help you build,
                 launch, and grow SaaS tools that align with your business goals.
               </p>
             </div>
 
             {/* Service 3 */}
-            <div className="bg-stratech-background p-6 border-2 border-transparent hover:border-stratech-blue transition-colors">
-              <div className="w-full h-48 lg:h-80 bg-gray-100 mb-6 rounded flex items-center justify-center">
+            <div className="bg-stratech-background p-6 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-lg">
+              <div className="w-full h-48 lg:h-64 bg-gray-100 mb-6 rounded flex items-center justify-center">
                 <span className="text-gray-400">Service Icon 3</span>
               </div>
-              <h3 className="font-geist text-xl lg:text-28 lg:leading-[34px] text-stratech-blue mb-3">
+              <h3 className="font-geist text-xl lg:text-2xl text-stratech-blue mb-4">
                 ERP Implementation
               </h3>
-              <p className="font-geist-mono text-base lg:text-20 lg:leading-[27px] text-stratech-text-blue">
+              <p className="font-geist-mono text-sm lg:text-base leading-relaxed text-stratech-text-blue">
                 Deploy robust, all-in-one ERP systems — customized to your
                 workflow from inventory and HR to finance and operations.
               </p>
             </div>
 
             {/* Service 4 */}
-            <div className="bg-stratech-background p-6 border-2 border-transparent hover:border-stratech-blue transition-colors">
-              <div className="w-full h-48 lg:h-80 bg-gray-100 mb-6 rounded flex items-center justify-center">
+            <div className="bg-stratech-background p-6 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-lg">
+              <div className="w-full h-48 lg:h-64 bg-gray-100 mb-6 rounded flex items-center justify-center">
                 <span className="text-gray-400">Service Icon 4</span>
               </div>
-              <h3 className="font-geist text-xl lg:text-28 lg:leading-[34px] text-stratech-blue mb-3">
+              <h3 className="font-geist text-xl lg:text-2xl text-stratech-blue mb-4">
                 Management Systems
               </h3>
-              <p className="font-geist-mono text-base lg:text-20 lg:leading-[27px] text-stratech-text-blue">
+              <p className="font-geist-mono text-sm lg:text-base leading-relaxed text-stratech-text-blue">
                 Custom systems to help you manage teams, clients, inventory, and
                 daily operations — built to fit your business.
               </p>
             </div>
 
             {/* Service 5 */}
-            <div className="bg-stratech-background p-6 border-2 border-transparent hover:border-stratech-blue transition-colors">
-              <div className="w-full h-48 lg:h-80 bg-gray-100 mb-6 rounded flex items-center justify-center">
+            <div className="bg-stratech-background p-6 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-lg">
+              <div className="w-full h-48 lg:h-64 bg-gray-100 mb-6 rounded flex items-center justify-center">
                 <span className="text-gray-400">Service Icon 5</span>
               </div>
-              <h3 className="font-geist text-xl lg:text-28 lg:leading-[34px] text-stratech-blue mb-3">
+              <h3 className="font-geist text-xl lg:text-2xl text-stratech-blue mb-4">
                 Automation Tools
               </h3>
-              <p className="font-geist-mono text-base lg:text-20 lg:leading-[27px] text-stratech-text-blue">
+              <p className="font-geist-mono text-sm lg:text-base leading-relaxed text-stratech-text-blue">
                 Automate routine tasks, communications, and workflows with
                 custom-built automation tools that save time, reduce errors, and
                 boost efficiency.
@@ -241,14 +241,14 @@ const Index = () => {
             </div>
 
             {/* Service 6 */}
-            <div className="bg-stratech-background p-6 border-2 border-transparent hover:border-stratech-blue transition-colors">
-              <div className="w-full h-48 lg:h-80 bg-gray-100 mb-6 rounded flex items-center justify-center">
+            <div className="bg-stratech-background p-6 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-lg">
+              <div className="w-full h-48 lg:h-64 bg-gray-100 mb-6 rounded flex items-center justify-center">
                 <span className="text-gray-400">Service Icon 6</span>
               </div>
-              <h3 className="font-geist text-xl lg:text-28 lg:leading-[34px] text-stratech-blue mb-3">
+              <h3 className="font-geist text-xl lg:text-2xl text-stratech-blue mb-4">
                 Business Applications
               </h3>
-              <p className="font-geist-mono text-base lg:text-20 lg:leading-[27px] text-stratech-text-blue">
+              <p className="font-geist-mono text-sm lg:text-base leading-relaxed text-stratech-text-blue">
                 Powerful, user-friendly applications tailored to your business
                 needs — whether internal tools or customer-facing platforms.
               </p>
