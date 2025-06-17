@@ -45,17 +45,6 @@ const Index = () => {
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="relative min-h-screen bg-white border border-black shadow-lg">
-        {/* Background Image */}
-        <div className="absolute inset-0">
-          <img
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/f12e158c47046bdd24b99562387cce30e9dfc952?placeholderIfAbsent=true"
-            alt="Background"
-            className="w-full h-full object-cover"
-          />
-          {/* Grid overlay */}
-          <div className="absolute inset-0 bg-grid-pattern opacity-60"></div>
-        </div>
-
         {/* Navigation */}
         <nav className="relative z-20 flex justify-between items-center px-6 lg:px-28 py-6">
           <div className="w-80 h-21">
