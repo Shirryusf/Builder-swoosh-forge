@@ -42,7 +42,45 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50 relative overflow-hidden">
+      {/* Background Pattern */}
+      <div className="absolute inset-0 opacity-30">
+        <div className="absolute top-10 left-10 w-72 h-72 bg-gradient-to-r from-stratech-blue/20 to-transparent rounded-full blur-3xl"></div>
+        <div className="absolute top-1/3 right-20 w-96 h-96 bg-gradient-to-l from-indigo-200/30 to-transparent rounded-full blur-3xl"></div>
+        <div className="absolute bottom-20 left-1/4 w-80 h-80 bg-gradient-to-r from-blue-200/20 to-transparent rounded-full blur-3xl"></div>
+        <div className="absolute bottom-10 right-10 w-64 h-64 bg-gradient-to-l from-stratech-blue/15 to-transparent rounded-full blur-2xl"></div>
+      </div>
+
+      {/* Geometric Grid Pattern */}
+      <div className="absolute inset-0 opacity-5">
+        <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <pattern
+              id="grid"
+              width="60"
+              height="60"
+              patternUnits="userSpaceOnUse"
+            >
+              <path
+                d="M 60 0 L 0 0 0 60"
+                fill="none"
+                stroke="#517193"
+                strokeWidth="1"
+              />
+              <circle cx="30" cy="30" r="2" fill="#3398DB" opacity="0.3" />
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#grid)" />
+        </svg>
+      </div>
+
+      {/* Floating Elements */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-1/4 left-1/3 w-3 h-3 bg-stratech-blue rounded-full animate-pulse opacity-40"></div>
+        <div className="absolute top-3/4 right-1/4 w-2 h-2 bg-indigo-400 rounded-full animate-pulse opacity-30 animation-delay-1000"></div>
+        <div className="absolute top-1/2 left-1/5 w-4 h-4 bg-blue-300 rounded-full animate-pulse opacity-25 animation-delay-2000"></div>
+        <div className="absolute top-1/6 right-1/3 w-2 h-2 bg-stratech-blue rounded-full animate-pulse opacity-35 animation-delay-3000"></div>
+      </div>
       {/* Hero Section */}
       <section className="relative min-h-screen bg-white">
         {/* Navigation */}
