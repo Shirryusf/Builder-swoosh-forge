@@ -119,7 +119,7 @@ const Index = () => {
         {/* Partner Logos Section */}
         <div className="relative px-6 lg:px-28 mt-16 lg:mt-32">
           <div className="text-center mb-8">
-            <h2 className="font-jaldi text-2xl md:text-3xl lg:text-48 lg:leading-[30px] text-stratech-text-blue font-bold">
+            <h2 className="font-jaldi text-xl md:text-2xl lg:text-3xl text-stratech-text-blue font-bold">
               Trusted By Our Partners
             </h2>
           </div>
