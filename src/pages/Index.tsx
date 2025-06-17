@@ -122,18 +122,32 @@ const Index = () => {
             </h2>
           </div>
 
-          {/* Logo Grid - placeholder divs for now */}
-          <div className="flex justify-center items-center gap-6 lg:gap-10 flex-wrap">
-            {[1, 2, 3, 4, 5].map((i) => (
-              <div
-                key={i}
-                className="w-32 lg:w-52 h-12 lg:h-16 bg-gray-200 rounded flex items-center justify-center"
-              >
-                <span className="text-gray-500 font-geist text-sm lg:text-base">
-                  Partner {i}
-                </span>
-              </div>
-            ))}
+          {/* Sliding Logo Container */}
+          <div className="overflow-hidden">
+            <div className="flex animate-slide-logos items-center gap-8 lg:gap-12">
+              {/* First set of logos */}
+              {[1, 2, 3, 4, 5].map((i) => (
+                <div
+                  key={i}
+                  className="flex-shrink-0 w-40 lg:w-52 h-12 lg:h-16 bg-gray-200 rounded flex items-center justify-center"
+                >
+                  <span className="text-gray-500 font-geist text-sm lg:text-base">
+                    Partner {i}
+                  </span>
+                </div>
+              ))}
+              {/* Duplicate set for seamless loop */}
+              {[1, 2, 3, 4, 5].map((i) => (
+                <div
+                  key={`duplicate-${i}`}
+                  className="flex-shrink-0 w-40 lg:w-52 h-12 lg:h-16 bg-gray-200 rounded flex items-center justify-center"
+                >
+                  <span className="text-gray-500 font-geist text-sm lg:text-base">
+                    Partner {i}
+                  </span>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
