@@ -848,18 +848,18 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="py-24 bg-stratech-background border-t border-stratech-text-blue/50">
-        <div className="max-w-7xl mx-auto px-28">
+      <footer className="py-12 lg:py-24 bg-stratech-background border-t border-stratech-text-blue/50">
+        <div className="max-w-7xl mx-auto px-6 lg:px-28">
           {/* Footer Content */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 mb-8 lg:mb-12">
             {/* Company Info */}
             <div>
               <div className="mb-8">
-                <div className="text-stratech-blue font-jaldi text-2xl font-bold mb-6">
+                <div className="text-stratech-blue font-jaldi text-xl lg:text-2xl font-bold mb-6">
                   STRATECH
                 </div>
               </div>
-              <p className="font-geist-mono text-20 leading-[27px] text-stratech-text-blue">
+              <p className="font-geist-mono text-base lg:text-20 lg:leading-[27px] text-stratech-text-blue">
                 Stratech provides smart, scalable tech solutions — from ERP and
                 CRM systems to SaaS products and automation tools. We help
                 businesses streamline operations, connect systems, and grow
@@ -868,8 +868,8 @@ const Index = () => {
             </div>
 
             {/* Contact Info */}
-            <div className="text-center">
-              <div className="font-jaldi text-28 leading-[30px] text-stratech-text-blue">
+            <div className="text-center md:text-left lg:text-center">
+              <div className="font-jaldi text-lg md:text-xl lg:text-28 lg:leading-[30px] text-stratech-text-blue">
                 info@stratech24.com
                 <br />
                 (+49) 176 72733996
@@ -880,7 +880,7 @@ const Index = () => {
           {/* Copyright */}
           <div className="border-t border-stratech-text-blue/50 pt-6">
             <div className="text-center">
-              <p className="font-geist-mono text-18 leading-[27px] text-stratech-text-blue">
+              <p className="font-geist-mono text-base lg:text-18 lg:leading-[27px] text-stratech-text-blue">
                 © Stratech Company 2024 | All Rights Reserved
               </p>
             </div>
