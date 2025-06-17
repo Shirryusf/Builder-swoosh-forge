@@ -565,24 +565,24 @@ const Index = () => {
       </section>
 
       {/* Contact Us Section */}
-      <section className="py-12 lg:py-24 bg-stratech-background">
-        <div className="max-w-7xl mx-auto px-6 lg:px-28">
+      <section className="py-16 lg:py-20 bg-stratech-background">
+        <div className="max-w-4xl mx-auto px-6 lg:px-28">
           <div className="mb-12">
-            <h2 className="font-jaldi text-3xl md:text-5xl lg:text-74 lg:leading-[89px] text-stratech-text-blue mb-6">
+            <h2 className="font-jaldi text-3xl md:text-4xl lg:text-5xl text-stratech-text-blue mb-6">
               Contact Us
             </h2>
-            <p className="font-geist-mono text-lg md:text-xl lg:text-22 lg:leading-[27px] text-stratech-text-blue">
+            <p className="font-geist-mono text-base lg:text-lg leading-relaxed text-stratech-text-blue">
               We specialize in delivering tailored solutions to address your
               business needs across these key areas:
             </p>
           </div>
 
           {/* Contact Form */}
-          <form onSubmit={handleSubmit} className="space-y-8 lg:space-y-12">
+          <form onSubmit={handleSubmit} className="space-y-6 lg:space-y-8">
             {/* Name Fields */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <label className="block font-geist-mono text-lg lg:text-20 lg:leading-[27px] text-stratech-text-blue mb-3">
+                <label className="block font-geist-mono text-base lg:text-lg text-stratech-text-blue mb-3">
                   First Name
                 </label>
                 <Input
