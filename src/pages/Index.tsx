@@ -375,7 +375,7 @@ const Index = () => {
       {/* Testimonial Section */}
       <section className="py-16 lg:py-20 bg-stratech-background">
         <div className="max-w-6xl mx-auto px-6 lg:px-28 text-center">
-          <blockquote className="font-geist text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight text-stratech-dark-text mb-12 italic font-light">
+          <blockquote className="font-geist text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-tight text-stratech-text-blue mb-12 italic font-light">
             "Our focus is on creating products and services that empower
             businesses, streamline operations, and foster growth in the digital
             era."
