@@ -248,8 +248,12 @@ const Index = () => {
 
             {/* Service 2 */}
             <div className="bg-stratech-background p-6 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-lg">
-              <div className="w-full h-48 lg:h-64 bg-gray-100 mb-6 rounded flex items-center justify-center">
-                <span className="text-gray-400">Service Icon 2</span>
+              <div className="w-full h-48 lg:h-64 mb-6 rounded flex items-center justify-center p-4">
+                <img
+                  src="https://cdn.builder.io/api/v1/assets/3d06e7b99c5248b59738ec5ba799835f/image-6a1058?format=webp&width=800"
+                  alt="SaaS Product Development Icon"
+                  className="max-h-full max-w-full object-contain"
+                />
               </div>
               <h3 className="font-geist text-xl lg:text-2xl text-stratech-blue mb-4">
                 SaaS Product Development
