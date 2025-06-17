@@ -42,7 +42,16 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div
+      className="min-h-screen"
+      style={{
+        backgroundImage: `url("https://cdn.builder.io/api/v1/assets/3d06e7b99c5248b59738ec5ba799835f/ae26d9c2c135e0a5ce75db53524d3560-b74d55?format=webp&width=800")`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundAttachment: "fixed",
+      }}
+    >
       {/* Hero Section */}
       <section className="relative min-h-screen bg-white">
         {/* Navigation */}
