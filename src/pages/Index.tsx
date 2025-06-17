@@ -150,13 +150,13 @@ const Index = () => {
       </section>
 
       {/* Services Section */}
-      <section className="py-24 bg-stratech-background">
-        <div className="max-w-7xl mx-auto px-28">
+      <section className="py-12 lg:py-24 bg-stratech-background">
+        <div className="max-w-7xl mx-auto px-6 lg:px-28">
           <div className="mb-12">
-            <h2 className="font-jaldi text-75 leading-[89px] text-stratech-text-blue mb-6">
+            <h2 className="font-jaldi text-3xl md:text-5xl lg:text-75 lg:leading-[89px] text-stratech-text-blue mb-6">
               Our Services
             </h2>
-            <p className="font-geist-mono text-24 leading-[27px] text-stratech-text-blue max-w-5xl">
+            <p className="font-geist-mono text-lg md:text-xl lg:text-24 lg:leading-[27px] text-stratech-text-blue max-w-5xl">
               We specialize in delivering tailored solutions to address your
               business needs across these key areas:
             </p>
