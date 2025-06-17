@@ -60,15 +60,15 @@ const Index = () => {
         {/* Hero Content */}
         <div className="relative px-6 lg:px-28 mt-10 lg:mt-20">
           {/* Main Heading */}
-          <div className="max-w-[1013px] mb-6">
-            <h1 className="font-jaldi text-4xl md:text-6xl lg:text-90 leading-tight lg:leading-[144px] text-stratech-text-blue">
+          <div className="max-w-[1013px] mb-8">
+            <h1 className="font-jaldi text-3xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight text-stratech-text-blue">
               Empowering Businesses with Smart Digital Solutions
             </h1>
           </div>
 
           {/* Subheading */}
           <div className="max-w-[1110px] mb-6">
-            <p className="font-geist-mono text-lg md:text-xl lg:text-24 leading-relaxed lg:leading-[27px] text-stratech-text-blue">
+            <p className="font-geist-mono text-base md:text-lg lg:text-xl leading-relaxed text-stratech-text-blue">
               From startups to multinational corporations, we deliver scalable,
               reliable, and cost-effective services to address your unique
               challenges.
@@ -76,8 +76,8 @@ const Index = () => {
           </div>
 
           {/* Description */}
-          <div className="max-w-[1076px] mb-12">
-            <p className="font-geist-mono text-lg md:text-xl lg:text-24 leading-relaxed lg:leading-[27px] text-stratech-text-blue">
+          <div className="max-w-[1076px] mb-10">
+            <p className="font-geist-mono text-base md:text-lg lg:text-xl leading-relaxed text-stratech-text-blue">
               Empower your business with smart systems, process automation, and
               scalable digital tools — designed to adapt and grow with you,
               wherever you are.
@@ -87,7 +87,7 @@ const Index = () => {
           {/* CTA Button */}
           <Button
             onClick={handleBookConsultation}
-            className="px-4 lg:px-[18px] py-3 lg:py-4 bg-gradient-to-r from-stratech-text-blue to-stratech-dark-blue border-[1.5px] border-stratech-blue text-white font-jaldi text-lg lg:text-24 font-bold hover:opacity-90 transition-opacity flex items-center gap-3"
+            className="px-6 lg:px-8 py-3 lg:py-4 bg-gradient-to-r from-stratech-text-blue to-stratech-dark-blue border-[1.5px] border-stratech-blue text-white font-jaldi text-base lg:text-lg font-bold hover:opacity-90 transition-opacity flex items-center gap-3"
           >
             Book a Consultation
             <svg
