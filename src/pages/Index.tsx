@@ -755,37 +755,7 @@ const Index = () => {
           </div>
 
           {/* Final CTA */}
-          <div className="text-center">
-            <Button
-              onClick={handleBookConsultation}
-              className="px-[18px] py-4 bg-gradient-to-r from-stratech-text-blue to-stratech-dark-blue border-[1.5px] border-stratech-blue text-white font-jaldi text-18 font-bold hover:opacity-90 transition-opacity flex items-center gap-3 mx-auto"
-            >
-              Book a Consultation
-              <svg
-                width="15"
-                height="13"
-                viewBox="0 0 15 13"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M7.95854 12C7.95854 12 13.4585 7.94931 13.4585 6.49996C13.4585 5.0506 7.9585 1 7.9585 1"
-                  stroke="white"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <path
-                  opacity="0.4"
-                  d="M1.54179 12C1.54179 12 7.04174 7.94931 7.04175 6.49996C7.04176 5.0506 1.54175 1 1.54175 1"
-                  stroke="white"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            </Button>
-          </div>
+          <div className="text-center"></div>
         </div>
       </section>
 
