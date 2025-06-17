@@ -136,6 +136,11 @@ export default {
         "accordion-up": "accordion-up 0.2s ease-out",
         "slide-logos": "slide-logos 20s linear infinite",
       },
+      animationDelay: {
+        "1000": "1s",
+        "2000": "2s",
+        "3000": "3s",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
