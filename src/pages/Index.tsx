@@ -772,9 +772,11 @@ const Index = () => {
             {/* Company Info */}
             <div>
               <div className="mb-8">
-                <div className="text-stratech-blue font-jaldi text-xl lg:text-2xl font-bold mb-6">
-                  STRATECH
-                </div>
+                <img
+                  src="https://cdn.builder.io/api/v1/assets/3d06e7b99c5248b59738ec5ba799835f/photo_2025-05-23_03-05-19-795092?format=webp&width=800"
+                  alt="Stratech Company Logo"
+                  className="h-12 lg:h-16 w-auto object-contain mb-6"
+                />
               </div>
               <p className="font-geist-mono text-base lg:text-20 lg:leading-[27px] text-stratech-text-blue">
                 Stratech provides smart, scalable tech solutions — from ERP and
