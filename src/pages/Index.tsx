@@ -248,7 +248,7 @@ const Index = () => {
 
             {/* Service 2 */}
             <div className="bg-stratech-background p-6 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-lg">
-              <div className="w-full h-48 lg:h-64 mb-6 rounded flex items-center justify-center p-4">
+              <div className="w-full h-56 lg:h-72 mb-6 rounded flex items-center justify-center p-2">
                 <img
                   src="https://cdn.builder.io/api/v1/assets/3d06e7b99c5248b59738ec5ba799835f/image-6a1058?format=webp&width=800"
                   alt="SaaS Product Development Icon"
