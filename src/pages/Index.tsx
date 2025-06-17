@@ -483,23 +483,21 @@ const Index = () => {
               <h3 className="font-geist text-xl lg:text-2xl text-stratech-blue mb-6 leading-tight">
                 Seamless Legacy System Migration for a Healthcare Enterprise
               </h3>
-              <div className="space-y-6">
+              <div className="space-y-4">
                 <div>
-                  <h4 className="font-geist text-base lg:text-lg text-stratech-blue font-semibold mb-3 flex items-center">
-                    <span className="w-2 h-2 bg-red-400 rounded-full mr-3"></span>
+                  <h4 className="font-geist text-base lg:text-lg text-stratech-blue font-semibold mb-2">
                     Challenge
                   </h4>
-                  <p className="font-geist-mono text-sm lg:text-base leading-relaxed text-stratech-text-blue pl-5">
+                  <p className="font-geist-mono text-sm lg:text-base leading-relaxed text-stratech-text-blue">
                     The client's outdated system was causing inefficiencies,
                     data loss, and scalability issues.
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-geist text-base lg:text-lg text-stratech-blue font-semibold mb-3 flex items-center">
-                    <span className="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
+                  <h4 className="font-geist text-base lg:text-lg text-stratech-blue font-semibold mb-2">
                     Solution
                   </h4>
-                  <p className="font-geist-mono text-sm lg:text-base leading-relaxed text-stratech-text-blue pl-5">
+                  <p className="font-geist-mono text-sm lg:text-base leading-relaxed text-stratech-text-blue">
                     Our team developed a custom migration strategy, ensuring
                     seamless data transfer, modernizing the infrastructure, and
                     integrating the system with advanced analytics tools.
