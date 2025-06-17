@@ -373,14 +373,14 @@ const Index = () => {
       </section>
 
       {/* Testimonial Section */}
-      <section className="py-24 bg-stratech-background">
-        <div className="max-w-7xl mx-auto px-28 text-center">
-          <blockquote className="font-geist text-74 leading-[89px] text-stratech-dark-text mb-12">
+      <section className="py-16 lg:py-20 bg-stratech-background">
+        <div className="max-w-5xl mx-auto px-6 lg:px-28 text-center">
+          <blockquote className="font-geist text-2xl md:text-3xl lg:text-4xl leading-relaxed text-stratech-dark-text mb-8">
             "Our focus is on creating products and services that empower
             businesses, streamline operations, and foster growth in the digital
             era."
           </blockquote>
-          <cite className="font-geist-mono text-22 leading-[27px] text-stratech-blue">
+          <cite className="font-geist-mono text-base lg:text-lg leading-relaxed text-stratech-blue">
             Shireen Yousif
             <br />
             Co-Founder, Stratech Company
