@@ -46,7 +46,7 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative min-h-screen bg-white border border-black shadow-lg">
         {/* Navigation */}
-        <nav className="relative z-20 flex justify-between items-center px-6 lg:px-28 py-6">
+        <nav className="relative flex justify-between items-center px-6 lg:px-28 py-6">
           <div className="w-80 h-21">
             {/* Logo placeholder - replace with actual logo */}
             <div className="text-stratech-blue font-jaldi text-xl lg:text-2xl font-bold">
@@ -56,7 +56,7 @@ const Index = () => {
         </nav>
 
         {/* Hero Content */}
-        <div className="relative z-10 px-6 lg:px-28 mt-10 lg:mt-20">
+        <div className="relative px-6 lg:px-28 mt-10 lg:mt-20">
           {/* Main Heading */}
           <div className="max-w-[1013px] mb-6">
             <h1 className="font-jaldi text-4xl md:text-6xl lg:text-90 leading-tight lg:leading-[144px] text-stratech-text-blue">
