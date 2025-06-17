@@ -57,27 +57,27 @@ const Index = () => {
         </div>
 
         {/* Navigation */}
-        <nav className="relative z-20 flex justify-between items-center px-28 py-6">
+        <nav className="relative z-20 flex justify-between items-center px-6 lg:px-28 py-6">
           <div className="w-80 h-21">
             {/* Logo placeholder - replace with actual logo */}
-            <div className="text-stratech-blue font-jaldi text-2xl font-bold">
+            <div className="text-stratech-blue font-jaldi text-xl lg:text-2xl font-bold">
               STRATECH
             </div>
           </div>
         </nav>
 
         {/* Hero Content */}
-        <div className="relative z-10 px-28 mt-20">
+        <div className="relative z-10 px-6 lg:px-28 mt-10 lg:mt-20">
           {/* Main Heading */}
           <div className="max-w-[1013px] mb-6">
-            <h1 className="font-jaldi text-90 leading-[144px] text-stratech-text-blue">
+            <h1 className="font-jaldi text-4xl md:text-6xl lg:text-90 leading-tight lg:leading-[144px] text-stratech-text-blue">
               Empowering Businesses with Smart Digital Solutions
             </h1>
           </div>
 
           {/* Subheading */}
           <div className="max-w-[1110px] mb-6">
-            <p className="font-geist-mono text-24 leading-[27px] text-stratech-text-blue">
+            <p className="font-geist-mono text-lg md:text-xl lg:text-24 leading-relaxed lg:leading-[27px] text-stratech-text-blue">
               From startups to multinational corporations, we deliver scalable,
               reliable, and cost-effective services to address your unique
               challenges.
@@ -86,7 +86,7 @@ const Index = () => {
 
           {/* Description */}
           <div className="max-w-[1076px] mb-12">
-            <p className="font-geist-mono text-24 leading-[27px] text-stratech-text-blue">
+            <p className="font-geist-mono text-lg md:text-xl lg:text-24 leading-relaxed lg:leading-[27px] text-stratech-text-blue">
               Empower your business with smart systems, process automation, and
               scalable digital tools — designed to adapt and grow with you,
               wherever you are.
@@ -96,7 +96,7 @@ const Index = () => {
           {/* CTA Button */}
           <Button
             onClick={handleBookConsultation}
-            className="px-[18px] py-4 bg-gradient-to-r from-stratech-text-blue to-stratech-dark-blue border-[1.5px] border-stratech-blue text-white font-jaldi text-24 font-bold hover:opacity-90 transition-opacity flex items-center gap-3"
+            className="px-4 lg:px-[18px] py-3 lg:py-4 bg-gradient-to-r from-stratech-text-blue to-stratech-dark-blue border-[1.5px] border-stratech-blue text-white font-jaldi text-lg lg:text-24 font-bold hover:opacity-90 transition-opacity flex items-center gap-3"
           >
             Book a Consultation
             <svg
@@ -126,21 +126,23 @@ const Index = () => {
         </div>
 
         {/* Partner Logos Section */}
-        <div className="relative z-10 px-28 mt-32">
+        <div className="relative z-10 px-6 lg:px-28 mt-16 lg:mt-32">
           <div className="text-center mb-8">
-            <h2 className="font-jaldi text-48 leading-[30px] text-stratech-text-blue font-bold">
+            <h2 className="font-jaldi text-2xl md:text-3xl lg:text-48 lg:leading-[30px] text-stratech-text-blue font-bold">
               Trusted By Our Partners
             </h2>
           </div>
 
           {/* Logo Grid - placeholder divs for now */}
-          <div className="flex justify-center items-center gap-10 flex-wrap">
+          <div className="flex justify-center items-center gap-6 lg:gap-10 flex-wrap">
             {[1, 2, 3, 4, 5].map((i) => (
               <div
                 key={i}
-                className="w-52 h-16 bg-gray-200 rounded flex items-center justify-center"
+                className="w-32 lg:w-52 h-12 lg:h-16 bg-gray-200 rounded flex items-center justify-center"
               >
-                <span className="text-gray-500 font-geist">Partner {i}</span>
+                <span className="text-gray-500 font-geist text-sm lg:text-base">
+                  Partner {i}
+                </span>
               </div>
             ))}
           </div>
