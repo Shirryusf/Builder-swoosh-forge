@@ -547,24 +547,22 @@ const Index = () => {
               <h3 className="font-geist text-xl lg:text-2xl text-stratech-blue mb-6 leading-tight">
                 Scalable ERP Implementation for a Retail Chain
               </h3>
-              <div className="space-y-6">
+              <div className="space-y-4">
                 <div>
-                  <h4 className="font-geist text-base lg:text-lg text-stratech-blue font-semibold mb-3 flex items-center">
-                    <span className="w-2 h-2 bg-red-400 rounded-full mr-3"></span>
+                  <h4 className="font-geist text-base lg:text-lg text-stratech-blue font-semibold mb-2">
                     Challenge
                   </h4>
-                  <p className="font-geist-mono text-sm lg:text-base leading-relaxed text-stratech-text-blue pl-5">
+                  <p className="font-geist-mono text-sm lg:text-base leading-relaxed text-stratech-text-blue">
                     The retail client struggled with fragmented operations
                     across multiple locations, affecting efficiency and
                     reporting accuracy.
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-geist text-base lg:text-lg text-stratech-blue font-semibold mb-3 flex items-center">
-                    <span className="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
+                  <h4 className="font-geist text-base lg:text-lg text-stratech-blue font-semibold mb-2">
                     Solution
                   </h4>
-                  <p className="font-geist-mono text-sm lg:text-base leading-relaxed text-stratech-text-blue pl-5">
+                  <p className="font-geist-mono text-sm lg:text-base leading-relaxed text-stratech-text-blue">
                     Stratech team implemented a customized ERP system,
                     integrating inventory, sales, and finance operations into a
                     single streamlined platform.
