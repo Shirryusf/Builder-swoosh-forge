@@ -559,9 +559,11 @@ const Index = () => {
             {/* Case Study 1 */}
             <div className="bg-white p-8 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-xl shadow-sm">
               <div className="w-full h-48 lg:h-56 bg-gradient-to-br from-blue-50 to-blue-100 mb-8 rounded-lg flex items-center justify-center">
-                <span className="text-stratech-blue font-semibold">
-                  Healthcare
-                </span>
+                <img
+                  src="/Service icon 1.svg"
+                  alt="Product Consulting Icon"
+                  className="max-h-full max-w-full object-contain"
+                />
               </div>
               <h3 className="font-geist text-xl lg:text-2xl text-stratech-blue mb-6 leading-tight">
                 Seamless Legacy System Migration for a Healthcare Enterprise
@@ -592,9 +594,11 @@ const Index = () => {
             {/* Case Study 2 */}
             <div className="bg-white p-8 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-xl shadow-sm">
               <div className="w-full h-48 lg:h-56 bg-gradient-to-br from-green-50 to-green-100 mb-8 rounded-lg flex items-center justify-center">
-                <span className="text-stratech-blue font-semibold">
-                  FinTech
-                </span>
+                <img
+                  src="/Service icon 1.svg"
+                  alt="Product Consulting Icon"
+                  className="max-h-full max-w-full object-contain"
+                />
               </div>
               <h3 className="font-geist text-xl lg:text-2xl text-stratech-blue mb-6 leading-tight">
                 Accelerating MVP Development for a FinTech Startup
@@ -625,7 +629,11 @@ const Index = () => {
             {/* Case Study 3 */}
             <div className="bg-white p-8 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-xl shadow-sm">
               <div className="w-full h-48 lg:h-56 bg-gradient-to-br from-purple-50 to-purple-100 mb-8 rounded-lg flex items-center justify-center">
-                <span className="text-stratech-blue font-semibold">Retail</span>
+                <img
+                  src="/Service icon 1.svg"
+                  alt="Product Consulting Icon"
+                  className="max-h-full max-w-full object-contain"
+                />
               </div>
               <h3 className="font-geist text-xl lg:text-2xl text-stratech-blue mb-6 leading-tight">
                 Scalable ERP Implementation for a Retail Chain
