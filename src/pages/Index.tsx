@@ -53,7 +53,10 @@ const Index = () => {
       }}
     >
       {/* Hero Section */}
-      <section className="relative min-h-screen bg-white">
+      <section 
+        className="relative min-h-screen bg-white bg-no-repeat bg-right bg-cover"
+        style={{ backgroundImage: "url('/hero.png')" }}
+      >
         {/* Navigation */}
         <nav className="relative flex justify-between items-center px-6 lg:px-28 py-6">
           <div className="w-160 h-40">
@@ -74,7 +77,6 @@ const Index = () => {
               Empowering Businesses with Smart Digital Solutions
             </h1>
           </div>
-
           {/* Subheading */}
           <div className="max-w-[1110px] mb-6">
             <p className="font-geist-mono text-base md:text-lg lg:text-xl leading-relaxed text-stratech-text-blue">
