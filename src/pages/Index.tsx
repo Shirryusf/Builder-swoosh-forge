@@ -31,7 +31,7 @@ const Index = () => {
   const handleBookConsultation = () => {
     // Redirect to booking calendar or contact
     window.open(
-      "https://calendly.com/your-stratech-consultation",
+      "https://calendly.com/sherry-stratech24/30min?month=2025-06",
       "_blank",
     );
   };
