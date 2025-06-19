@@ -418,9 +418,9 @@ const Index = () => {
           {/* Three columns */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-stratech-background p-6 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-lg">
-              <div className="w-full h-48 lg:h-64 bg-gray-100 mb-6 rounded flex items-center justify-center">
+              <div className="w-full h-56 lg:h-72 mb-6 rounded flex items-center justify-center p-2">
                 <img
-                  src="/Service icon 2 (1).svg"
+                  src="/choose1.jpg"
                   alt="SaaS Product Development Icon"
                   className="max-h-full max-w-full object-contain"
                 />
@@ -434,9 +434,9 @@ const Index = () => {
             </div>
 
             <div className="bg-stratech-background p-6 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-lg">
-              <div className="w-full h-48 lg:h-64 bg-gray-100 mb-6 rounded flex items-center justify-center">
+              <div className="w-full h-56 lg:h-72 mb-6 rounded flex items-center justify-center p-2">
                 <img
-                  src="/Service icon 2 (1).svg"
+                  src="/choose2.jpg"
                   alt="SaaS Product Development Icon"
                   className="max-h-full max-w-full object-contain"
                 />
@@ -450,9 +450,9 @@ const Index = () => {
             </div>
 
             <div className="bg-stratech-background p-6 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-lg">
-              <div className="w-full h-48 lg:h-64 bg-gray-100 mb-6 rounded flex items-center justify-center">
+              <div className="w-full h-56 lg:h-72 mb-6 rounded flex items-center justify-center p-2">
                 <img
-                  src="/Service icon 2 (1).svg"
+                  src="/choose3.jpg"
                   alt="SaaS Product Development Icon"
                   className="max-h-full max-w-full object-contain"
                 />
@@ -502,9 +502,9 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Innovation */}
             <div className="bg-stratech-background p-6">
-              <div className="w-full h-72 bg-gray-100 mb-6 rounded flex items-center justify-center">
+              <div className="w-full h-56 lg:h-72 mb-6 rounded flex items-center justify-center p-2">
                 <img
-                  src="/Service icon 2 (1).svg"
+                  src="/stand1.jpg"
                   alt="SaaS Product Development Icon"
                   className="max-h-full max-w-full object-contain"
                 />
@@ -519,9 +519,9 @@ const Index = () => {
 
             {/* Reliability */}
             <div className="bg-stratech-background p-6">
-              <div className="w-full h-72 bg-gray-100 mb-6 rounded flex items-center justify-center">
+              <div className="w-full h-56 lg:h-72 mb-6 rounded flex items-center justify-center p-2">
                 <img
-                  src="/Service icon 2 (1).svg"
+                  src="/stand2.jpg"
                   alt="SaaS Product Development Icon"
                   className="max-h-full max-w-full object-contain"
                 />
@@ -536,9 +536,9 @@ const Index = () => {
 
             {/* Collaboration */}
             <div className="bg-stratech-background p-6">
-              <div className="w-full h-72 bg-gray-100 mb-6 rounded flex items-center justify-center">
+              <div className="w-full h-56 lg:h-72 mb-6 rounded flex items-center justify-center p-2">
                 <img
-                  src="/Service icon 2 (1).svg"
+                  src="/stand3.jpg"
                   alt="SaaS Product Development Icon"
                   className="max-h-full max-w-full object-contain"
                 />
@@ -553,9 +553,9 @@ const Index = () => {
 
             {/* Integrity */}
             <div className="bg-stratech-background p-6">
-              <div className="w-full h-72 bg-gray-100 mb-6 rounded flex items-center justify-center">
+              <div className="w-full h-56 lg:h-72 mb-6 rounded flex items-center justify-center p-2">
                 <img
-                  src="/Service icon 2 (1).svg"
+                  src="/stand4.jpg"
                   alt="SaaS Product Development Icon"
                   className="max-h-full max-w-full object-contain"
                 />
@@ -818,9 +818,9 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
             {/* Inclusive Environment */}
             <div className="bg-stratech-background p-6">
-              <div className="w-full h-80 bg-gray-100 mb-6 rounded flex items-center justify-center">
+              <div className="w-full h-56 lg:h-72 mb-6 rounded flex items-center justify-center p-2">
                 <img
-                  src="/Service icon 2 (1).svg"
+                  src="/join1.jpg"
                   alt="SaaS Product Development Icon"
                   className="max-h-full max-w-full object-contain"
                 />
@@ -836,9 +836,9 @@ const Index = () => {
 
             {/* Flexible Work */}
             <div className="bg-stratech-background p-6">
-              <div className="w-full h-80 bg-gray-100 mb-6 rounded flex items-center justify-center">
+              <div className="w-full h-56 lg:h-72 mb-6 rounded flex items-center justify-center p-2">
                 <img
-                  src="/Service icon 2 (1).svg"
+                  src="/join2.jpg"
                   alt="SaaS Product Development Icon"
                   className="max-h-full max-w-full object-contain"
                 />
@@ -887,9 +887,9 @@ const Index = () => {
 
             {/* Recognition */}
             <div className="bg-stratech-background p-6">
-              <div className="w-full h-80 bg-gray-100 mb-6 rounded flex items-center justify-center">
+              <div className="w-full h-56 lg:h-72 mb-6 rounded flex items-center justify-center p-2">
                 <img
-                  src="/Service icon 2 (1).svg"
+                  src="/join3.jpg"
                   alt="SaaS Product Development Icon"
                   className="max-h-full max-w-full object-contain"
                 />
