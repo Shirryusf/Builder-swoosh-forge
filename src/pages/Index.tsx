@@ -419,7 +419,11 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-stratech-background p-6 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-lg">
               <div className="w-full h-48 lg:h-64 bg-gray-100 mb-6 rounded flex items-center justify-center">
-                <span className="text-gray-400">Global Icon</span>
+                <img
+                  src="/Service icon 2 (1).svg"
+                  alt="SaaS Product Development Icon"
+                  className="max-h-full max-w-full object-contain"
+                />
               </div>
               <h3 className="font-geist text-xl lg:text-2xl text-stratech-blue mb-4">
                 Global Reach
@@ -431,7 +435,11 @@ const Index = () => {
 
             <div className="bg-stratech-background p-6 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-lg">
               <div className="w-full h-48 lg:h-64 bg-gray-100 mb-6 rounded flex items-center justify-center">
-                <span className="text-gray-400">Solutions Icon</span>
+                <img
+                  src="/Service icon 2 (1).svg"
+                  alt="SaaS Product Development Icon"
+                  className="max-h-full max-w-full object-contain"
+                />
               </div>
               <h3 className="font-geist text-xl lg:text-2xl text-stratech-blue mb-4">
                 Scalable Solutions
@@ -443,7 +451,11 @@ const Index = () => {
 
             <div className="bg-stratech-background p-6 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-lg">
               <div className="w-full h-48 lg:h-64 bg-gray-100 mb-6 rounded flex items-center justify-center">
-                <span className="text-gray-400">Trust Icon</span>
+                <img
+                  src="/Service icon 2 (1).svg"
+                  alt="SaaS Product Development Icon"
+                  className="max-h-full max-w-full object-contain"
+                />
               </div>
               <h3 className="font-geist text-xl lg:text-2xl text-stratech-blue mb-4">
                 Expertise You Can Trust
@@ -491,7 +503,11 @@ const Index = () => {
             {/* Innovation */}
             <div className="bg-stratech-background p-6">
               <div className="w-full h-72 bg-gray-100 mb-6 rounded flex items-center justify-center">
-                <span className="text-gray-400">Innovation Icon</span>
+                <img
+                  src="/Service icon 2 (1).svg"
+                  alt="SaaS Product Development Icon"
+                  className="max-h-full max-w-full object-contain"
+                />
               </div>
               <h3 className="font-geist text-28 leading-[34px] text-stratech-blue mb-3">
                 Innovation
@@ -504,7 +520,11 @@ const Index = () => {
             {/* Reliability */}
             <div className="bg-stratech-background p-6">
               <div className="w-full h-72 bg-gray-100 mb-6 rounded flex items-center justify-center">
-                <span className="text-gray-400">Reliability Icon</span>
+                <img
+                  src="/Service icon 2 (1).svg"
+                  alt="SaaS Product Development Icon"
+                  className="max-h-full max-w-full object-contain"
+                />
               </div>
               <h3 className="font-geist text-28 leading-[34px] text-stratech-blue mb-3">
                 Reliability
@@ -517,7 +537,11 @@ const Index = () => {
             {/* Collaboration */}
             <div className="bg-stratech-background p-6">
               <div className="w-full h-72 bg-gray-100 mb-6 rounded flex items-center justify-center">
-                <span className="text-gray-400">Collaboration Icon</span>
+                <img
+                  src="/Service icon 2 (1).svg"
+                  alt="SaaS Product Development Icon"
+                  className="max-h-full max-w-full object-contain"
+                />
               </div>
               <h3 className="font-geist text-28 leading-[34px] text-stratech-blue mb-3">
                 Collaboration
@@ -530,7 +554,11 @@ const Index = () => {
             {/* Integrity */}
             <div className="bg-stratech-background p-6">
               <div className="w-full h-72 bg-gray-100 mb-6 rounded flex items-center justify-center">
-                <span className="text-gray-400">Integrity Icon</span>
+                <img
+                  src="/Service icon 2 (1).svg"
+                  alt="SaaS Product Development Icon"
+                  className="max-h-full max-w-full object-contain"
+                />
               </div>
               <h3 className="font-geist text-28 leading-[34px] text-stratech-blue mb-3">
                 Integrity
@@ -791,7 +819,11 @@ const Index = () => {
             {/* Inclusive Environment */}
             <div className="bg-stratech-background p-6">
               <div className="w-full h-80 bg-gray-100 mb-6 rounded flex items-center justify-center">
-                <span className="text-gray-400">Team Icon</span>
+                <img
+                  src="/Service icon 2 (1).svg"
+                  alt="SaaS Product Development Icon"
+                  className="max-h-full max-w-full object-contain"
+                />
               </div>
               <h3 className="font-geist text-28 leading-[34px] text-stratech-blue mb-3">
                 Inclusive Environment
@@ -805,7 +837,11 @@ const Index = () => {
             {/* Flexible Work */}
             <div className="bg-stratech-background p-6">
               <div className="w-full h-80 bg-gray-100 mb-6 rounded flex items-center justify-center">
-                <span className="text-gray-400">Flexible Icon</span>
+                <img
+                  src="/Service icon 2 (1).svg"
+                  alt="SaaS Product Development Icon"
+                  className="max-h-full max-w-full object-contain"
+                />
               </div>
               <h3 className="font-geist text-28 leading-[34px] text-stratech-blue mb-3">
                 Flexible Work Options
@@ -852,7 +888,11 @@ const Index = () => {
             {/* Recognition */}
             <div className="bg-stratech-background p-6">
               <div className="w-full h-80 bg-gray-100 mb-6 rounded flex items-center justify-center">
-                <span className="text-gray-400">Recognition Icon</span>
+                <img
+                  src="/Service icon 2 (1).svg"
+                  alt="SaaS Product Development Icon"
+                  className="max-h-full max-w-full object-contain"
+                />
               </div>
               <h3 className="font-geist text-28 leading-[34px] text-stratech-blue mb-3">
                 Recognition & Rewards
