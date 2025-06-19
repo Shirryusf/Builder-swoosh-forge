@@ -560,7 +560,7 @@ const Index = () => {
             <div className="bg-white p-8 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-xl shadow-sm">
               <div className="w-full h-48 lg:h-56 bg-gradient-to-br from-blue-50 to-blue-100 mb-8 rounded-lg flex items-center justify-center">
                 <img
-                  src="/Service icon 1.svg"
+                  src="/case1.jpg"
                   alt="Product Consulting Icon"
                   className="max-h-full max-w-full object-contain"
                 />
@@ -595,7 +595,7 @@ const Index = () => {
             <div className="bg-white p-8 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-xl shadow-sm">
               <div className="w-full h-48 lg:h-56 bg-gradient-to-br from-green-50 to-green-100 mb-8 rounded-lg flex items-center justify-center">
                 <img
-                  src="/Service icon 1.svg"
+                  src="/case2.jpg"
                   alt="Product Consulting Icon"
                   className="max-h-full max-w-full object-contain"
                 />
@@ -630,7 +630,7 @@ const Index = () => {
             <div className="bg-white p-8 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-xl shadow-sm">
               <div className="w-full h-48 lg:h-56 bg-gradient-to-br from-purple-50 to-purple-100 mb-8 rounded-lg flex items-center justify-center">
                 <img
-                  src="/Service icon 1.svg"
+                  src="/case3.jpg"
                   alt="Product Consulting Icon"
                   className="max-h-full max-w-full object-contain"
                 />
