@@ -803,6 +803,8 @@ const Index = () => {
               <p className="font-geist-mono text-20 leading-[27px] text-stratech-text-blue">
                 Work remotely, on-site, or in a hybrid setup that suits your
                 lifestyle.
+
+                
               </p>
 
               {/* Join Team Button */}
