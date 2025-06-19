@@ -31,7 +31,7 @@ const Index = () => {
   const handleBookConsultation = () => {
     // Redirect to booking calendar or contact
     window.open(
-      "mailto:info@stratech24.com?subject=Consultation Request",
+      "https://calendly.com/your-stratech-consultation",
       "_blank",
     );
   };
