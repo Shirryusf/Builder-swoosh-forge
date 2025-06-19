@@ -38,7 +38,7 @@ const Index = () => {
 
   const handleJoinTeam = () => {
     // Redirect to careers page or email
-    window.open("mailto:info@stratech24.com?subject=Career Interest", "_blank");
+    window.open("mailto:careers@stratech24.com?subject=Career Interest", "_blank");
   };
 
   return (
@@ -808,7 +808,7 @@ const Index = () => {
               {/* Join Team Button */}
               <Button
                 onClick={handleJoinTeam}
-                className="w-full mt-6 px-6 py-6 bg-stratech-background border-2 border-stratech-text-blue text-stratech-text-blue font-geist text-24 font-bold hover:bg-stratech-text-blue hover:text-white transition-colors flex items-center justify-center gap-4"
+                className="px-6 lg:px-8 py-3 lg:py-4 bg-gradient-to-r from-stratech-text-blue to-stratech-dark-blue border-[1.5px] border-stratech-blue text-white font-jaldi text-base lg:text-lg font-bold hover:opacity-90 transition-opacity flex items-center gap-3"
               >
                 Join our team
                 <svg
@@ -885,7 +885,7 @@ const Index = () => {
                 Ready to transform your business? Contact us through:
               </p>
               <div className="font-jaldi text-lg md:text-xl lg:text-2xl text-stratech-text-blue">
-                info@stratech24.com
+                contact@stratech24.com
                 <br />
                 (+49) 176 72733996
               </div>
