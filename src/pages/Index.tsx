@@ -56,10 +56,10 @@ const Index = () => {
       <section className="relative min-h-screen bg-white">
         {/* Navigation */}
         <nav className="relative flex justify-between items-center px-6 lg:px-28 py-6">
-          <div className="w-80 h-21">
+          <div className="w-160 h-40">
             {/* Stratech Logo */}
             <img
-              src="https://cdn.builder.io/api/v1/assets/3d06e7b99c5248b59738ec5ba799835f/photo_2025-05-23_03-05-19-795092?format=webp&width=800"
+              src="/stratechlogo.svg"
               alt="Stratech Company Logo"
               className="h-20 lg:h-28 w-auto object-contain"
             />
