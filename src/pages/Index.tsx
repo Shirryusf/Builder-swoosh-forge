@@ -250,7 +250,7 @@ const Index = () => {
             <div className="bg-stratech-background p-6 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-lg">
               <div className="w-full h-56 lg:h-72 mb-6 rounded flex items-center justify-center p-2">
                 <img
-                  src="/Service icon 2(1).svg"
+                  src="/Service icon 2 (1).svg"
                   alt="SaaS Product Development Icon"
                   className="max-h-full max-w-full object-contain"
                 />
@@ -284,7 +284,7 @@ const Index = () => {
 
             {/* Service 4 */}
             <div className="bg-stratech-background p-6 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-lg">
-              <div className="w-full h-48 lg:h-64 bg-gray-100 mb-6 rounded flex items-center justify-center">
+              <div className="w-full h-56 lg:h-72 mb-6 rounded flex items-center justify-center p-2">
                 <img
                   src="/Untitled design (1).svg"
                   alt="Management systems Icon"
@@ -302,7 +302,7 @@ const Index = () => {
 
             {/* Service 5 */}
             <div className="bg-stratech-background p-6 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-lg">
-              <div className="w-full h-48 lg:h-64 bg-gray-100 mb-6 rounded flex items-center justify-center">
+              <div className="w-full h-56 lg:h-72 mb-6 rounded flex items-center justify-center p-2">
                 <img
                   src="/Service icon 5.svg"
                   alt="Automation Tools Icon"
@@ -321,7 +321,7 @@ const Index = () => {
 
             {/* Service 6 */}
             <div className="bg-stratech-background p-6 border-2 border-transparent hover:border-stratech-blue transition-colors rounded-lg">
-              <div className="w-full h-48 lg:h-64 bg-gray-100 mb-6 rounded flex items-center justify-center">
+              <div className="w-full h-56 lg:h-72 mb-6 rounded flex items-center justify-center p-2">
                 <img
                   src="/Service icon 6.svg"
                   alt="Business Applications Icon"
